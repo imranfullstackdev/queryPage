@@ -1,0 +1,115 @@
+/* style.css */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.section {
+  padding: 50px 0;
+}
+
+.fixed-header {
+  background-color: #ffffff; 
+  border-bottom: 1px solid #ddd;
+}
+
+.fixed-header .navbar-brand {
+  font-size: 1.5em; 
+  font-weight: bold;
+}
+
+.fixed-header .navbar-nav .nav-link {
+  color: #333; 
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.fixed-header .navbar-nav .nav-link:hover {
+  color: #007bff;
+}
+
+
+
+
+
+.fixed-header .navbar-nav {
+  margin-left: auto; /* Move navigation links to the right */
+}
+
+/* contact-us */
+/* Custom styles for ContactUs component */
+#contact-us h2 {
+  text-align: center;
+}
+
+#contact-us form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact-us form label {
+  font-weight: bold;
+}
+
+#contact-us form .form-control {
+  margin-bottom: 15px;
+}
+
+#contact-us form .invalid-feedback {
+  color: red;
+}
+
+#contact-us form button {
+  width: 100%;
+  margin-top: 15px;
+}
+
+
+/* footer */
+.footer {
+  background-color: #343a40; /* Dark background color */
+}
+
+.footer .nav-link {
+  color: #ffffff; /* White text color */
+  font-size: 14px;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.footer .nav-link:hover {
+  color: #ffc107; /* Yellow text color on hover */
+}
+.footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.footer h5 {
+  color: #fff;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.footer p {
+  font-size: 14px;
+}
+
+.footer-link {
+  color: #fff;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  font-size: 14px;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+

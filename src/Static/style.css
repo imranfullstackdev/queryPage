@@ -1,0 +1,17 @@
+/* AboutUs.css */
+
+.about-us-container {
+    margin-top: 20px;
+  }
+  
+  .about-us-container h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .about-us-container p {
+    font-size: 1em;
+    line-height: 1.6;
+  }
+  

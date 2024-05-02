@@ -1,0 +1,28 @@
+/* ImageSlider.css */
+
+.image-slider {
+    margin-top: 20px;
+  }
+  .image-slider img{
+    height: 331px;
+    object-fit: contain;
+  }
+  
+  .image-slider .card {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .image-slider .card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .image-slider .card-title {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .image-slider .card-text {
+    font-size: 0.9em;
+  }
+  
